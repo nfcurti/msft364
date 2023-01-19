@@ -1,0 +1,58 @@
+.gamma-box {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    border-radius: 10px;
+    position: absolute;
+    top: 13%;
+    background-color: #E94D1C;
+    color: white;
+     box-shadow: 0 0 0 0.125rem black;
+     text-align: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+  }
+
+  .gamma-box h3 {
+    font-size: 16px;
+  }
+
+  .gamma-box p {
+    font-size: 16px;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .gamma-box-buttons {
+    width: 280px;
+    margin-bottom: 20px;
+    display: flex;
+    float: right;
+  }
+
+  .gamma-box-button {
+    background-color: white;
+    border-radius: 30px;
+    width: 120px;
+    color: #E94D1C;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    transition: 1s all ease;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
+  .gamma-box-button p {
+    text-align: center;
+  }
+
+  .gamma-box-button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 211, 211);
+  }
+

@@ -1,0 +1,140 @@
+.epsilon-box {
+    width: 64%;
+    margin-left: 18%;
+    margin-right: 18%;
+    
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    background-color: #ffffff;
+    color: black;
+     box-shadow: 0 0 0 0.125rem black;
+     text-align: center;
+     padding-top: 30px;
+  }
+
+.epsilon-box-header {
+    background-color: #E94D1C;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
+
+.epsilon-box .epsilon-center-logo {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: -85px;
+    left: calc(50% - 100px);
+}
+
+.epsilon-box .epsilon-center-logo img{
+    width: 60%;
+    margin-top: 20%;
+}
+
+.epsilon-box-header h2 {
+    margin: 0px;
+}
+
+.epsilon-bottom {
+    width: 100%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.epsilon-bottom h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.epsilon-bottom h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.epsilon-footer {
+    background-color: #6DA4FA;
+    width: 100%;
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.epsilon-footer-left {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.epsilon-footer-left p {
+    margin: 0px;
+    
+}
+
+.epsilon-footer-right {
+
+}
+
+.epsilon-button {
+    margin: 0px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    float: left;
+    margin: 0px 10px;
+    width: 200px;
+}
+
+.epsilon-button:hover {
+    cursor: pointer;
+}
+
+.epsilon-box .closeButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #6DA4FA;
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    opacity: 0.8;
+    transition: 0.5s all ease;
+  }
+  
+  .epsilon-box .closeButton:hover, .epsilon-box .minimizeButton:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  .epsilon-box .minimizeButton {
+    
+    transition: 0.5s all ease;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: -50px;
+    right: 50px;
+    opacity: 0.8;
+  }
+  
+  .epsilon-box .minimizeButton img {
+    width: 60%;
+    margin-left: 0%;
+    margin-top: 20%;
+  }
+  
+  .epsilon-box  .closeButton img {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 20%;
+  }
